@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    padding: 23px;
+    background-color: #282b35;
+}
+
+.header-title{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+    color: rgb(7, 7, 7);
+}
+
+.header-title :nth-child(1){
+    font-size: 30px;
+}
+
+
+.header-title :nth-child(2){
+    color:#F9BD34;
+    margin-top: 10px;
+}
+
+
+#input-box{
+    border: 1px solid black;
+    padding: 23px;
+}
+#addTitle{
+    font-weight: bolder;
+   }
+input, textarea{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 6px;
+    color: white;
+}
+
+button{
+    background: transparent;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid white;
+}
+
+#notes{
+    padding: 23px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.note{
+    width: 300px;
+    color: #a1a0a0;
+    overflow-wrap: break-word;
+    margin: 12px;
+    padding: 12px;
+    border: 1px solid black;
+    background: transparent;
+}
+
+.deleteNote{
+    float: right;
+}
